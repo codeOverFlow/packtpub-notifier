@@ -1,3 +1,6 @@
 To use it, simply use: 
 $ crontab -e
 and edit the file to register the script in a cron job
+for example to run it every day at 10:00am put:
+
+0 10 * * * ~/packtpub-notifier/news.py
