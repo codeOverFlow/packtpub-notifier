@@ -2,6 +2,7 @@
 # -*- encoding: utf-8 -*-
 
 import os
+import urllib
 from BeautifulSoup import BeautifulSoup
 from BeautifulSoup import Tag
 from subprocess import call
