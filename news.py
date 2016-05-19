@@ -1,11 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-import sys
-import codecs
-import re
-import requests as r
-import urllib
 import os
 from BeautifulSoup import BeautifulSoup
 from BeautifulSoup import Tag
