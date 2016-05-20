@@ -1,3 +1,7 @@
+to install dependencies run dependencies.sh
+
+$ ./dependencies.sh
+
 To use it, simply use: 
 $ crontab -e
 and edit the file to register the script in a cron job
