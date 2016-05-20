@@ -5,7 +5,6 @@ import os
 import urllib
 from BeautifulSoup import BeautifulSoup
 from BeautifulSoup import Tag
-from subprocess import call
 
 usock = urllib.urlopen("https://www.packtpub.com/packt/offers/free-learning")
 soup = BeautifulSoup(usock.read())        
